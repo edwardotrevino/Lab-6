@@ -20,6 +20,7 @@ def decode():
             
 
 while __name__ == "__main__":
+    print("\nMenu\n-------------")
     print("1. Encode\n2. Decode\n3. Exit")
     option = int(input("Choose an option: "))
     if option == 1:
